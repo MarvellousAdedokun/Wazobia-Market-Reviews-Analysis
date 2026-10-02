@@ -1,0 +1,51 @@
+WAZOBIA AFRICAN MARKET — REVIEW ANALYSIS SUMMARY
+=======================================================
+
+Total reviews analyzed: 192
+Average star rating: 4.19
+Average sentiment score (VADER compound, -1 to 1): 0.451
+Owner response rate: 100.0%
+
+Rating distribution:
+  1.0 stars: 23
+  2.0 stars: 10
+  3.0 stars: 8
+  4.0 stars: 17
+  5.0 stars: 134
+
+Sentiment distribution:
+  positive: 143
+  neutral: 28
+  negative: 21
+
+Rating/sentiment tension (the story signal):
+  aligned: 179
+  low_rating_positive_text: 9
+  high_rating_negative_text: 4
+
+Theme mentions (how many reviews touch each topic):
+  staff_service: 68
+  food_quality: 58
+  authenticity: 42
+  cleanliness: 29
+  wait_time: 27
+  pricing: 22
+  stock_availability: 16
+  portion_size: 6
+
+Theme sentiment breakdown:
+  pricing: 22 mentions, avg sentiment 0.494, avg rating 4.18
+  food_quality: 58 mentions, avg sentiment 0.521, avg rating 4.31
+  staff_service: 68 mentions, avg sentiment 0.547, avg rating 4.28
+  cleanliness: 29 mentions, avg sentiment 0.517, avg rating 4.41
+  authenticity: 42 mentions, avg sentiment 0.543, avg rating 4.5
+  stock_availability: 16 mentions, avg sentiment 0.798, avg rating 4.75
+  wait_time: 27 mentions, avg sentiment 0.226, avg rating 3.07
+  portion_size: 6 mentions, avg sentiment 0.647, avg rating 3.5
+
+Average rating by recency bucket:
+  1-3_months_ago: 4.27
+  3-12_months_ago: 4.14
+  last_month: 4.0
+  last_week: 5.0
+  over_a_year_ago: 4.2

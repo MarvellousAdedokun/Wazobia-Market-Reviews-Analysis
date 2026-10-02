@@ -1,0 +1,36 @@
+AUTOMATED TOPIC DISCOVERY (TF-IDF + NMF)
+=============================================
+
+Topic 0 (23 reviews, avg rating 4.61): good, food good, high, good food, food, really, good customer, clean
+Topic 1 (19 reviews, avg rating 4.95): great, experience, selection, great selection, great place, prices, place, professional
+Topic 2 (24 reviews, avg rating 4.46): service, customer service, customer, good customer, professional, slow, better, point
+Topic 3 (54 reviews, avg rating 3.41): store, best, clean, african, african store, africa, best african, organized
+Topic 4 (23 reviews, avg rating 4.48): love, wazobia, love wazobia, experience, reasonable, fish, beans, rice
+Topic 5 (49 reviews, avg rating 4.31): food, place, nice, african, nice place, african food, place shop, shop
+
+FINE-GRAINED SUB-THEMES
+=============================================
+
+staff_service::friendliness: 32 mentions, avg sentiment 0.764
+food_quality::taste: 12 mentions, avg sentiment 0.769
+food_quality::freshness: 9 mentions, avg sentiment 0.591
+staff_service::speed: 7 mentions, avg sentiment 0.474
+staff_service::rudeness: 4 mentions, avg sentiment -0.700
+food_quality::portion: 3 mentions, avg sentiment 0.925
+food_quality::temperature: 1 mentions, avg sentiment -0.690
+
+LOCAL GUIDE vs. REGULAR REVIEWER
+=============================================
+
+Local Guides: 2 reviews | avg rating 4.50 | avg sentiment 0.780
+Regular reviewers: 190 reviews | avg rating 4.19 | avg sentiment 0.447
+
+Theme mention rate by group (% of group's reviews mentioning theme):
+  authenticity: Local Guides 100.0% vs. Regular 21.1%
+  cleanliness: Local Guides 0.0% vs. Regular 15.3%
+  food_quality: Local Guides 50.0% vs. Regular 30.0%
+  portion_size: Local Guides 0.0% vs. Regular 3.2%
+  pricing: Local Guides 0.0% vs. Regular 11.6%
+  staff_service: Local Guides 50.0% vs. Regular 35.3%
+  stock_availability: Local Guides 0.0% vs. Regular 8.4%
+  wait_time: Local Guides 0.0% vs. Regular 14.2%

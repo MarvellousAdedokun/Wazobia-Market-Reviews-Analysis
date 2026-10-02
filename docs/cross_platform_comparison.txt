@@ -1,0 +1,30 @@
+CROSS-PLATFORM COMPARISON: GOOGLE vs. YELP
+==================================================
+
+Google: n=192, avg rating=4.19, avg sentiment=0.451
+Yelp:   n=55, avg rating=3.35, avg sentiment=0.432
+
+Note: Yelp's listing covers the prepared-food Kitchen side more heavily;
+Google's covers the grocery Market side more heavily. Different customer
+journeys, which is itself part of why the two platforms diverge.
+
+theme               google %    google neg%   yelp %    yelp neg%   
+authenticity        21.9        7.1           29.1      0.0         
+cleanliness         15.1        17.2          12.7      0.0         
+food_quality        30.2        10.3          72.7      20.0        
+portion_size        3.1         16.7          18.2      20.0        
+pricing             11.5        13.6          12.7      42.9        
+staff_service       35.4        13.2          50.9      32.1        
+stock_availability  8.3         0.0           10.9      0.0         
+wait_time           14.1        25.9          21.8      25.0        
+
+READING GUIDE:
+- 'neg%' = share of that theme's mentions that were sentiment-negative
+- A theme with similar neg% on both platforms = a real, cross-validated issue
+- A theme with high neg% on one platform only = may be platform-specific
+  (different customer base or different part of the business being reviewed)
+
+AUTO-FLAGGED PATTERNS:
+  [CROSS-VALIDATED ISSUE] portion_size: negative on both platforms (google 17%, yelp 20%)
+  [PLATFORM-SPECIFIC] pricing: google 14% neg vs yelp 43% neg — big gap
+  [CROSS-VALIDATED ISSUE] wait_time: negative on both platforms (google 26%, yelp 25%)
